@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(197, 190, 190);
+}
+
+.header-conteiner {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.expense {
+  width: 20%;
+  background-color: gray;
+  margin: 0 auto 15px;
+  list-style-type: none;
+}
+
+.date-events {
+  background-color: rgb(59, 59, 59);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.event-of-expens {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.command-input {
+  padding: 0 10px 0 10px;
+  width: 250px;
+  outline: none;
+  height: 20px;
+  margin-left: 35px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.enter-command-btn {
+  margin-left: 15px;
+  width: max-content;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: gray;
+  transition: 1s;
+  color: white;
+}
+
+.enter-command-btn:hover {
+  background-color: orange;
+  color: black;
+}
+
+.header-title {
+  text-align: center;
+  color: white;
+}
